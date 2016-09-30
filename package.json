@@ -1,0 +1,31 @@
+{
+  "name": "jialin-resume",
+  "version": "1.0.0",
+  "description": "Generate a resume web page form some JSON data",
+  "keyword": [
+    "Jialin Wang",
+    "resume",
+    "ppmeng"
+  ],
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.con/ppmeng/resume"
+  },
+  "bugs": {
+    "url": "https://github.com/ppmeng/resume/issues",
+    "email": "yswdzlg@gmail.com"
+  },
+  "author": "Jialin Wang <yswdzlg@gmail.com> (http://ppmenghome.com/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-less": "^3.1.0",
+    "gulp-pug": "^3.0.4"
+  }
+}
