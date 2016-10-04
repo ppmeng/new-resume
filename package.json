@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.con/ppmeng/resume"
+    "url": "https://github.con/ppmeng/new-resume"
   },
   "bugs": {
-    "url": "https://github.com/ppmeng/resume/issues",
+    "url": "https://github.com/ppmeng/new-resume/issues",
     "email": "yswdzlg@gmail.com"
   },
   "author": "Jialin Wang <yswdzlg@gmail.com> (http://ppmenghome.com/)",
@@ -24,8 +24,10 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.3.0",
     "gulp-pug": "^3.0.4"
   }
 }

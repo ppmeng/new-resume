@@ -1,0 +1,24 @@
+include ../mixin/ga.pug
+
+doctype html
+<!--[if lte IE 8]-->
+|<html lang="#{data_lang}" class="lte-ie8">
+<![endif]-->
+<!--[if gt IE 8]-->
+<html lang="#{data_lang}">
+<![endif]-->
+  head
+    meta(charset="utf-8")
+    block seo
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    meta(name="renderer", content="webkit")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    block style
+    if ga_id
+      +ga(ga_id)
+  body
+    block IEcondition
+    block sidebar
+    block content
+    block footer
+<html>
